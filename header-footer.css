@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+header {
+
+    height: 30vh;
+    background-color: rgb(95, 197, 155);
+}
+
+.logo {
+
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+nav {
+    display: flex block;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 10vh;
+    position: sticky;
+    top: 0;
+
+    background-color: rgb(95, 197, 155);
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    color: rgb(220, 220, 220);
+}
+
+footer {
+    height: 50vh;
+    padding: 10px;
+    border-top: 3px solid rgb(95, 197, 155);
+    background-color: rgb(85, 125, 112);
+}
+
+footer img {
+    height: 50%;
+    float: left;
+    display: inline-block;
+}
