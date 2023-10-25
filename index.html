@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HAGE</title>
     <link rel="icon" href="images/logo.png">
-    <link rel="stylesheet" href="header-footer.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="header-footer.css">
 <body>
     <header>
         <div class="logo">
@@ -21,16 +22,67 @@
     </nav>
 
     <main>
-        <div class="slide">
+        <h1>¿Quienes somos?</h1>
+        <div class="about-us">
+            
+            <p class="texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum architecto, id sit corrupti repudiandae recusandae dolores earum quasi nisi. Corrupti ea eligendi, ipsam est necessitatibus saepe nostrum praesentium asperiores voluptates!
+            </p>
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first"><img src="images/slide/1.png"></div>
+                    <div class="slide"><img src="images/slide/2.png"></div>
+                    <div class="slide"><img src="images/slide/3.png"></div>
+
+                    <div class="navi-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+
+                </div>
+                
+                <div class="navi-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+
+                <script type="text/javascript">
+                    var counter = 1;
+                    setInterval(function() {
+                        document.querySelector('#radio' + counter).checked = true
+                        counter++;
+                        if(counter > 3){
+                            counter = 1
+                        }
+                    }, 6000);
+                </script>
+            </div>
+        </div>
+
+
+        <h1>Nuestras Especialidades</h1>
+        <div class="trabajos">
+            <div class="info">
+                <h2>EXTRACION</h2>
+            </div>
+            <div class="info">
+                <h2>ESTETICA DENTAL</h2>
+            </div>
+        </div>
+
+        <h1>¡Buscanos!</h1>
+        <div class="ubicacion">
 
         </div>
 
-        <div class="info">
-            <h2>EXTRACION</h2>
-        </div>
-        <div class="info">
-            <h2>ESTETICA DENTAL</h2>
-        </div>
     </main>
     
     <footer>

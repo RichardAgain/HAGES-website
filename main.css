@@ -1,6 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 
+h1 {
+    text-align: center;
+    color: rgb(60, 101, 64);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.texto {
+    font-family: "Roboto", sans-serif;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.about-us .texto {
+    float: left;
+    width: 60vh;
+}
+
 .info {
     margin: 10px;
     border: 3px solid rgb(114, 186, 143);
@@ -10,5 +32,4 @@
 .info h2 {
     color: rgb(63, 125, 104);
     font-family: 'Roboto Slab', sans-serif;
-
 }
