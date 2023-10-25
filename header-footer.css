@@ -1,16 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
 body {
     margin: 0;
 }
 
 header {
-
-    height: 30vh;
-    background-color: rgb(95, 197, 155);
+    height: 35vh;
+    background-color: rgb(95, 192, 151);
 }
 
-.logo {
 
-    height: 100%;
+.logo {
+    height: 90%;
 }
 
 .logo img {
@@ -20,6 +22,7 @@ header {
 }
 
 nav {
+    z-index: 1;
     display: flex block;
     align-items: center;
     justify-content: space-around;
@@ -28,14 +31,16 @@ nav {
     position: sticky;
     top: 0;
 
-    background-color: rgb(95, 197, 155);
+    background-color: rgb(95, 192, 151);
 }
 
 nav a {
+    text-align: center;
     color: white;
-    font-weight: bold;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav a:hover {
@@ -43,14 +48,35 @@ nav a:hover {
 }
 
 footer {
+    display: flex;
+    /* flex-direction: row-reverse; */
+
+    color: white;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+
     height: 50vh;
     padding: 10px;
-    border-top: 3px solid rgb(95, 197, 155);
-    background-color: rgb(85, 125, 112);
+    border-top: 3px solid rgb(79, 163, 128);
+    background-color: rgb(59, 87, 78);
 }
 
+footer div {
+    /* float: right; */
+    height: 100%;
+    width: 19%;
+    padding-left: 1%;
+}
+
+
 footer img {
-    height: 50%;
+    height: 16%;
+    margin-top: 1%;
+    margin-left: 1%;
     float: left;
     display: inline-block;
+}
+
+footer li {
+    list-style: none;
 }
