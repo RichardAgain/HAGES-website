@@ -55,6 +55,7 @@
 #radio1:checked ~ .first{
     margin-left: 0;
 }
+
 #radio2:checked ~ .first{
     margin-left: -20%;
 }
@@ -67,9 +68,9 @@
 .navi-auto {
     position: absolute;
     display: flex;
-    margin-left: 13.5%;
     width: 100px;
     margin-top: 430px;
+    margin-left: 90px;
 }
 
 .navi-auto div {
@@ -92,4 +93,11 @@
 }
 #radio3:checked ~ .navi-auto .auto-btn3 {
     background: rgb(0, 128, 109);
+}
+
+
+.boton {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
 }

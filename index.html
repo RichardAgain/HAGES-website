@@ -6,7 +6,7 @@
     <title>HAGE</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="sliders/slider.css">
     <link rel="stylesheet" href="header-footer.css">
 <body>
     <header>
@@ -29,7 +29,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum architecto, id sit corrupti repudiandae recusandae dolores earum quasi nisi. Corrupti ea eligendi, ipsam est necessitatibus saepe nostrum praesentium asperiores voluptates!
             </p>
 
-            <div class="slider">
+            <div class="slider one">
                 <div class="slides">
                     <input type="radio" name="radio-btn" id="radio1">
                     <input type="radio" name="radio-btn" id="radio2">
@@ -62,14 +62,14 @@
                         if(counter > 3){
                             counter = 1
                         }
-                    }, 6000);
+                    }, 5000);
                 </script>
             </div>
         </div>
 
 
         <h1>Nuestras Especialidades</h1>
-        <div class="trabajos">
+        <div class="trabajos info">
             <div class="info">
                 <h2>EXTRACION</h2>
             </div>
@@ -79,48 +79,50 @@
         </div>
 
         <div class='container'>
-            <h1>¡Buscanos!</h1>
+            <h1>¡Ubicanos!</h1>
+
+            <div class="direccion">
+                <img src="images/icons/ubicacion.png">
+                <p class="texto">C.C. GUADALUPE</p>
+            </div>
+
             <div class="ubicacion">
-                
                 <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.41427717577614!2d-68.01680064010701!3d10.210798705306933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805d91e61f1ff7%3A0xe5403af2da39c083!2sC.C.%20Guadalupe!5e0!3m2!1ses!2sve!4v1698240919604!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 <div class="slider">
                     <div class="slides">
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-
-                        <div class="slide first"><img src="images/slide/1.png"></div>
+                        <div class="slide second"><img src="images/slide/1.png"></div>
                         <div class="slide"><img src="images/slide/2.png"></div>
                         <div class="slide"><img src="images/slide/3.png"></div>
-
-                        <div class="navi-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                        </div>
-
                     </div>
-                    
-                    <div class="navi-manual">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                    </div>
-
-                    <script type="text/javascript">
-                        var counter = 1;
-                        setInterval(function() {
-                            document.querySelector('#radio' + counter).checked = true
-                            counter++;
-                            if(counter > 3){
-                                counter = 1
-                            }
-                        }, 6000);
-                    </script>
                 </div>
             </div>
+            
+            <h1>HORARIOS</h1>
+            <table>
+                <tr>
+                    <th>LUNES - VIERNES</th>
+                    <th>SABADOS</th>
+                </tr>
+                <tr>
+                    <th>HOLAA</th>
+                    <th>HOLAA</th>
+                </tr>
+                <tr>
+                    <th>HOLAA</th>
+                    <th>HOLAA</th>
+                </tr>
+
+            </table>
+
         </div>
+
+        <a target="_blank" href="https://api.whatsapp.com/send/?phone=584247544628&text&type=phone_number&app_absent=0">
+            <div class="whatsapp">
+                <img src="images/icons/whatsapp.png">
+                <h1>CONSULTAR AHORA</h1>
+            </div>
+        </a>
 
     </main>
     
