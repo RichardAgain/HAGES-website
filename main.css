@@ -20,7 +20,7 @@ h1 {
 
 .about-us .texto {
     float: left;
-    width: 60vh;
+    width: 75vh;
 }
 
 .info {
@@ -32,4 +32,21 @@ h1 {
 .info h2 {
     color: rgb(63, 125, 104);
     font-family: 'Roboto Slab', sans-serif;
+}
+
+.container {
+    background-color: aquamarine;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.mapa {
+    width: 40vw;
 }
