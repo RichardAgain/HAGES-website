@@ -13,6 +13,13 @@ h1 {
     font-family: "Roboto", sans-serif;
 }
 
+.intro {
+    font-family: 'Roboto Slab', sans-serif;
+    color: rgb(36, 61, 39);
+    font-size: large;
+    font-weight: 400;
+}
+
 .about-us {
     display: flex;
     justify-content: space-around;
@@ -21,7 +28,7 @@ h1 {
 
 .about-us .texto {
     float: left;
-    width: 75vh;
+    width: 80vh;
 }
 
 .especialidades {
@@ -62,6 +69,8 @@ h1 {
     border-bottom: 2px solid rgb(60, 101, 64);
     color: white;
 
+    font-size: 1.3rem;
+    font-family: 'Roboto',sans-serif;
 
 }
 
@@ -74,7 +83,7 @@ h1 {
 .desc:nth-child(even) {
     background-color: rgb(172, 254, 207);
     flex-direction: row-reverse;
-    color: black;
+    color: rgb(36, 61, 39);
     border: 0;
 }
 
