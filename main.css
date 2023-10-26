@@ -23,16 +23,76 @@ h1 {
     width: 75vh;
 }
 
-.info {
-    margin: 10px;
-    border: 3px solid rgb(114, 186, 143);
-    border-radius: 10px;
+.especialidades {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(172, 254, 207);
 }
 
-.info h2 {
-    color: rgb(63, 125, 104);
+.trabajos {
+    display: flex;
+    justify-content: center;
+}
+
+.bloque {
+    font-size: small;
+    margin: 10px;
+
+    border: 3px solid rgb(60, 101, 64);
+    border-radius: 10px;
+    padding: 5px;
+}
+.bloque:hover {
+    cursor: pointer;
+}
+
+.bloque h2 {
+    color: rgb(60, 101, 64);
     font-family: 'Roboto Slab', sans-serif;
 }
+
+.desc {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 100vw;
+    border-top: 2px solid rgb(60, 101, 64);
+    border-bottom: 2px solid rgb(60, 101, 64);
+    color: white;
+
+
+}
+
+.desc div {
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+
+.desc:nth-child(even) {
+    background-color: rgb(172, 254, 207);
+    flex-direction: row-reverse;
+    color: black;
+    border: 0;
+}
+
+.desc h2 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.desc img {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 90%;
+    border-radius: 10px;
+    border: 2px solid rgb(60, 101, 64);
+}
+
+.fondo-desc {
+    background-color: rgb(60, 101, 64);
+}
+
 
 .container {
     background-color: rgb(127, 255, 182);
@@ -70,11 +130,55 @@ h1 {
 
 .mapa {
     width: 40vw;
+    border: 2px solid rgb(63, 125, 104);
+}
+
+.gallery {
+    width: 45vw;
+    height: 450px;
+}
+
+.gallery div {
+    display: flex;
+    height: 50%;
+}
+
+.gallery img {
+    width: 50%;
+    margin: 10px;
+    /* border: 2px solid rgb(60, 101, 64); */
+    box-shadow: 5px 5px rgb(60, 101, 64);
+    border-radius: 10px;
+}
+
+.gallery img:hover {
+    transition: 1s;
+    transform: scale(1.05);
 }
 
 a {
     text-decoration: none;
 }
+
+.clock {
+    display: block;
+    margin: auto;
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+table {
+    margin: auto;
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(63, 125, 104)
+
+}
+
+th {
+    padding: 15px;
+}
+
 
 .whatsapp {
     display: flex;
@@ -91,6 +195,16 @@ a {
     
     /* text-decoration: none; */
     background-color: rgb(55, 200, 84);
+}
+
+.whatsapp:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.whatsapp:active {
+    transition: 0s;
+    transform: scale(0.95);
 }
 
 .whatsapp h1 {
