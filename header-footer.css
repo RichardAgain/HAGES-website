@@ -22,7 +22,7 @@ header {
 }
 
 nav {
-    z-index: 1;
+    z-index: 2;
     display: flex block;
     align-items: center;
     justify-content: space-around;
@@ -55,7 +55,7 @@ footer {
     font-family: 'Roboto Slab', sans-serif;
     text-align: center;
 
-    height: 50vh;
+    height: 40vh;
     padding: 10px;
     border-top: 3px solid rgb(79, 163, 128);
     background-color: rgb(59, 87, 78);
@@ -63,18 +63,33 @@ footer {
 
 footer div {
     /* float: right; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
     width: 19%;
     padding-left: 1%;
 }
 
 
-footer img {
+footer .footer-img {
     height: 16%;
     margin-top: 1%;
     margin-left: 1%;
+    margin-right: 15%;
     float: left;
     display: inline-block;
+}
+
+footer a {
+    color: white;
+    width: 50px;
+}
+
+footer .icon {
+    margin: auto;
+    height: auto;
+    width: 50px;
 }
 
 footer li {

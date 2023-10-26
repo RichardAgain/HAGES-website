@@ -5,6 +5,7 @@ h1 {
     text-align: center;
     color: rgb(60, 101, 64);
     font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
 
 }
 
@@ -56,7 +57,7 @@ h1 {
     display: flex;
     justify-content: center;
     height: 350px;
-    width: 100vw;
+    width: 100%;
     border-top: 2px solid rgb(60, 101, 64);
     border-bottom: 2px solid rgb(60, 101, 64);
     color: white;
@@ -84,12 +85,15 @@ h1 {
 .desc img {
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 90%;
     border-radius: 10px;
     border: 2px solid rgb(60, 101, 64);
 }
 
 .fondo-desc {
+    margin-top: 30px;
     background-color: rgb(60, 101, 64);
 }
 
@@ -129,7 +133,9 @@ h1 {
 }
 
 .mapa {
+    margin: auto;
     width: 40vw;
+    height: 300px;
     border: 2px solid rgb(63, 125, 104);
 }
 
@@ -170,13 +176,44 @@ a {
 table {
     margin: auto;
     font-weight: bolder;
-    font-size: large;
-    color: rgb(63, 125, 104)
+    font-size: 1.5rem;
+    color: rgb(63, 125, 104);
 
 }
 
 th {
     padding: 15px;
+}
+
+.contact-us {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    background-color: rgb(63, 125, 104);
+    width: auto;
+    height: auto;
+}
+
+.contact-us h1 {
+    color: white;
+}
+
+.contactos {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    height: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(127, 255, 182);
+}
+
+.contactos img {
+    height:130%;
+    margin-right: 5px;
 }
 
 
@@ -185,8 +222,10 @@ th {
     align-content: center;
     justify-content: center;
     border-radius: 10px;
-    width: 70vh;
+    width: 60vw;
     height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     margin-top: 30px;
     margin-bottom: 30px;
@@ -208,6 +247,7 @@ th {
 }
 
 .whatsapp h1 {
+    font-size: 2rem;
     color: white;
 }
 
