@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="sliders/slider.css">
     <link rel="stylesheet" href="header-footer.css">
 <body>
-    <header>
+    <header id="header">
         <div class="logo">
             <img src="images/full-logo.png" alt="">
         </div>
     </header>
     <nav>
-        <a href="">INICIO</a>
-        <a href="">TRABAJOS</a>
-        <a href="">BLOG</a>
-        <a href="">HACER CONSULTA</a>
+        <a href="#especialidades">TRABAJOS</a>
+
+        <a href="#ubicacion">UBICACION</a>
+        <a href="#redes">REDES</a>
+        <div>
+            <a class="wss" target="_blank" href="https://api.whatsapp.com/send/?phone=584247544628&text&type=phone_number&app_absent=0">AGENDAR CONSULTA</a>
+        </div>
     </nav>
 
     <main>
@@ -68,7 +71,7 @@
         </div>
 
 
-        <div class="especialidades">
+        <div class="especialidades" id="especialidades">
         <h1>Nuestras Especialidades 😬</h1>
 
             <div class="trabajos">
@@ -118,7 +121,7 @@
             </div>
         </div>
 
-        <div class='container'>
+        <div class='container' id="ubicacion">
             <h1>¡Ubícanos!</h1>
 
             <div class="direccion">
@@ -163,7 +166,7 @@
 
         </div>
 
-        <div class="contact-us">
+        <div class="contact-us" id="redes">
             <h1>¡Contáctanos!</h1>
 
             <div class="contactos">
@@ -183,15 +186,20 @@
 
         </div>
 
-        <h1>¡GRACIAS POR PREFERIRNOS!</h1>
-        
-        <a target="_blank" href="https://api.whatsapp.com/send/?phone=584247544628&text&type=phone_number&app_absent=0">
+        <a class="a-wss" target="_blank" href="https://api.whatsapp.com/send/?phone=584247544628&text&type=phone_number&app_absent=0">
             <div class="whatsapp">
                 <img src="images/icons/whatsapp.png">
                 <h1>CONSULTAR AHORA</h1>
             </div>
         </a>
+
+        <h1>¡GRACIAS POR PREFERIRNOS!</h1>
+
+        
     </main>
+    <a href="#header">
+        <img class="regresar" src="images/icons/arrow-up.png">
+    </a>
     
     <footer>
         <img src="images/title.png" alt="" class="footer-img">
